@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.each-destination {
+  text-align: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.img {
+  width: 380px;
+  height: 250px;
+}

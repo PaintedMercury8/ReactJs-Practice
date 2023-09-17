@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.btn {
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  height: 40px;
+  background-color: #382f5a;
+  border: 0.5px solid #d4d2db;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 30px;
+  color: #d4d2db;
+  text-align: center;
+}
+.list-item {
+  width: 45%;
+  margin-right: 10px;
+}

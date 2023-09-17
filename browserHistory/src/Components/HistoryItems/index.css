@@ -1,0 +1,56 @@
+.listHistoryItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: -1em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.date {
+  display: flex;
+  width: 100%;
+}
+
+.itemLogoAndDomain {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.itemTime {
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  flex-shrink: 0;
+  align-self: center;
+}
+.itemTitle {
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.listLogo {
+  margin-right: 10px;
+  align-self: center;
+  width: 25px;
+  height: 25px;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  align-self: center;
+}
+.test {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .itemLogoAndDomain {
+    font-size: 10px;
+  }
+  .date {
+    flex-wrap: wrap;
+  }
+}

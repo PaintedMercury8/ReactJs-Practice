@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.listSuggestion {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.upImg {
+  height: 40px;
+  width: 40px;
+}

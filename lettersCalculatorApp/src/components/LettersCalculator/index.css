@@ -1,0 +1,84 @@
+/* Write your code here. */
+.main-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+}
+
+.main-head {
+  color: #ffffff;
+  font-size: 60px;
+  width: 50%;
+}
+
+.inputText {
+  width: 60%;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.label {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.text-container {
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.letterMain {
+  height: 80px;
+  width: 200px;
+  background-color: #ffffff;
+  color: #1d976c;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.letterPara {
+  font-size: 20px;
+  font-weight: bold;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-img {
+  width: 70%;
+}
+
+@media screen and (max-width: 991px) {
+  .main-container {
+    flex-wrap: wrap;
+  }
+  .text-container {
+    order: 1;
+    align-items: center;
+    width: 100%;
+  }
+  .img {
+    order: 0;
+  }
+  .main-head {
+    font-size: 30px;
+    text-align: center;
+  }
+}

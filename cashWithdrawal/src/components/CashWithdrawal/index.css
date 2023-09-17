@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.main-container {
+  background-color: #150b3e;
+  width: 60vw;
+  height: 60vh;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-back {
+  height: 80px;
+  width: 80px;
+  background-color: #c7d2fe;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.profile-logo {
+  color: #7c3aed;
+  font-size: 18px;
+}
+
+.main-head {
+  color: #c7d2fe;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rupees {
+  text-align: right;
+  margin-right: 20px;
+  color: #585076;
+}
+
+.your-bal {
+  color: #585076;
+}
+.main-bal {
+  color: #d4d2db;
+  font-size: 40px;
+}
+
+.choose-sum {
+  margin-top: 40px;
+}
+
+.btn-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+  .main-container {
+    width: 90vw;
+    padding: 20px;
+    height: 90vh;
+  }
+  .choose-sum {
+    margin-top: 0px;
+  }
+}

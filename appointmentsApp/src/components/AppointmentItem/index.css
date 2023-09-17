@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.appItems {
+  width: 340px;
+  border: 2px solid #b5b7c4;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.star-and-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.star-img {
+  height: 22px;
+  width: 22px;
+}
+
+.star-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

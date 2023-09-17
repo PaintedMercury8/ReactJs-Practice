@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.tab-item-category {
+  list-style-type: none;
+}
+
+.btn {
+  width: 80px;
+  border: none;
+  border-bottom: 1px solid #7b8794;
+  padding-bottom: 10px;
+  color: #7b8794;
+  cursor: pointer;
+}
+
+.activate {
+  border-bottom: 3px solid #2563eb;
+  color: #2563eb;
+}

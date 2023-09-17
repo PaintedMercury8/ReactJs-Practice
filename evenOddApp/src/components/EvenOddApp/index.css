@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.background-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-container {
+  min-height: 400px;
+  width: 600px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+}
+
+.main-head {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.bottom-text {
+  font-size: 10px;
+}
+
+.result {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #334155;
+}
+
+button {
+  background-color: #ffffff;
+  border: 2px solid black;
+  height: 35px;
+  width: 150px;
+  border-radius: 10px;
+}

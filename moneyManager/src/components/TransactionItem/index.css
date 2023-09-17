@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.history-items {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+.position {
+  margin-left: 45px;
+}
+
+.deleteBtn {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .position {
+    margin-left: 20px;
+  }
+}

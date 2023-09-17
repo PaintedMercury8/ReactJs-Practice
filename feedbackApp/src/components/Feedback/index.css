@@ -1,0 +1,65 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-container {
+  width: 80%;
+  height: 50vh;
+  min-height: 400px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-head {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.emoji-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.emoji-item {
+  margin-left: -1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.emoji-img {
+  height: 80px;
+  width: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-head {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .feedback-para {
+    font-size: 15px;
+  }
+  .emoji-img {
+    height: 40px;
+    width: 40px;
+  }
+  .feedback-container {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+/* Write your code here. */
+.thumbnailItem {
+  margin-left: -1em;
+}
+
+.transparentOpacity {
+  opacity: 0.5;
+}
+
+.selectedOpacity {
+  opacity: 1;
+}
+.btn {
+  margin-right: 10px;
+  border-style: none;
+  background-color: #ffffff;
+}
+
+.thumbnailItemImg {
+  width: 100%;
+  height: 100%;
+}

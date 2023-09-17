@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.fruit-container {
+  height: 90vh;
+  width: 90vw;
+  background-color: white;
+  border-radius: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: auto;
+}
+
+.img {
+  height: 380px;
+}
+
+.main-head {
+  font-size: 4em;
+}
+
+.fruit-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: -4em;
+}
+.img {
+  margin-bottom: 30px;
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .img {
+    height: 250px;
+  }
+}
+
+.yellow {
+  color: #ffd569;
+}

@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  padding: 30px;
+  font-family: 'roboto';
+}
+
+.comment-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.comment-input-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.commentItemList {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.comment-para {
+  font-weight: bold;
+}
+
+.inputName {
+  margin-top: 10px;
+  width: 255px;
+  height: 40px;
+}
+
+.inputComment {
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 150px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+}
+.length-back {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.comment-head {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .comment-input-container {
+    flex-wrap: wrap;
+  }
+  .main-img {
+    order: 0;
+    height: 200px;
+    width: 400px;
+  }
+  .comment-input-flex {
+    order: 1;
+  }
+  .comment-para {
+    margin-top: 10px;
+  }
+}

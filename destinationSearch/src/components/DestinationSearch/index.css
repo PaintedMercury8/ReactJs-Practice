@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.destination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: -1em;
+}
+
+.inputEl {
+  border-style: none;
+  background-color: #f1f5f9;
+  width: 200px;
+}
+.search-bar {
+  display: flex;
+  height: 30px;
+  background-color: #f1f5f9;
+}
+
+.search-img {
+  height: 30px;
+}

@@ -1,0 +1,74 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#root {
+  font-family: "Roboto";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-head {
+  font-size: 40px;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.notification-container {
+  text-align: center;
+  width: 80%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #ffffff;
+  height: 60px;
+  padding: 10px;
+}
+
+.info {
+  background-color: #0b69ff;
+}
+.success {
+  background-color: #2dca73;
+}
+.warning {
+  background-color: #ffb800;
+}
+.error {
+  background-color: #ff0b37;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-head {
+    font-size: 20px;
+  }
+  .card {
+    min-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    min-width: 400px;
+  }
+}

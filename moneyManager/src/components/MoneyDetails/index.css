@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.money-balance-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.bal-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+}
+
+.bg-col-1 {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+
+.bg-col-2 {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+
+.bg-col-3 {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+
+@media screen and (max-width: 767px) {
+  .money-balance-item {
+    width: 100%;
+    padding: 2px;
+    height: 100px;
+  }
+  .bal-img {
+    margin-right: 40px;
+  }
+}
