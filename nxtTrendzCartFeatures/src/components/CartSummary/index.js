@@ -9,7 +9,7 @@ const CartSummary = props => {
         <h1 className="order-total">
           Order Total: <span className="amount">Rs {total}/- </span>
         </h1>
-        <p className="cart-length">{length} items in cart</p>
+        <p className="cart-length">{length} Items in cart</p>
       </div>
       <button className="checkout" type="button">
         Checkout
