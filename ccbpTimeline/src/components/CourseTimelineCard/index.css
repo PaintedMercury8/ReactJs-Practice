@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.tags-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  background-color: #e3e7f0;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+}
+
+.list-item-head {
+  font-weight: bold;
+  margin: 0px;
+}

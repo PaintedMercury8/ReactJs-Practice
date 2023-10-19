@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.individual-graph-container {
+  width: 100%;
+  background-color: #1c1c2b;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.individual-graph-container-head {
+  font-weight: 400;
+  color: #6c757d;
+}

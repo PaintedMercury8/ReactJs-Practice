@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.carousel-img {
+  width: 100%;
+}
+
+.movie-item {
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  height: 700px;
+}
+
+.close {
+  margin-bottom: 20px;
+  align-self: flex-end;
+  margin-top: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  width: 90%;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+.logo {
+  width: 70px;
+}
+
+.logo-container {
+  margin-left: auto;
+}
+
+.dark {
+  background-color: #333333;
+}
+.light {
+  background-color: #ffffff;
+}
+
+.dark-text {
+  color: #333333;
+}
+
+.light-text {
+  color: #ffffff;
+}
+
+.home-about-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light-dark-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.light-dark-btn-container {
+  margin-right: auto;
+}
+
+.light-dark-img {
+  width: 50px;
+}
+
+.link-nav {
+  text-decoration: none;
+}
+
+.navHeadHome {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 30px;
+  }
+  .light-dark-img {
+    width: 30px;
+  }
+  .navHeadHome {
+    font-size: 15px;
+  }
+  .navHeadAbout {
+    font-size: 15px;
+  }
+}

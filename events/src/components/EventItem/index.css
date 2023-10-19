@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.event-item {
+  width: 35%;
+  margin-bottom: 10px;
+}
+
+.item-img {
+  width: 100%;
+}
+
+.btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  color: #ffffff;
+}
+
+.img-outline {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
+
+.event-list-item-head {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.event-list-item-para {
+  font-size: 15px;
+  margin-top: -18px;
+}

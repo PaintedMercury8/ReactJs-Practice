@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.teams-card-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.teams-card-items-link {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffffff;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.team-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .teams-card-items {
+    height: 100px;
+  }
+  .team-logo {
+    width: 60px;
+  }
+}

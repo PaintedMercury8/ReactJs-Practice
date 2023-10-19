@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.not-found-img {
+  width: 30%;
+}
+
+.not-found-head-light {
+  color: #ffffff;
+}
+
+.not-found-head-dark {
+  color: #333333;
+}
+
+.not-found-para-light {
+  color: #ffffff;
+}
+
+.not-found-para-dark {
+  color: #333333;
+}
+
+@media screen and (max-width: 767px) {
+  .not-found-para-light {
+    color: #ffffff;
+    font-size: 8px;
+  }
+
+  .not-found-para-dark {
+    color: #333333;
+    font-size: 8px;
+  }
+}

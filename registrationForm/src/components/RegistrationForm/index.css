@@ -1,0 +1,99 @@
+/* Write your CSS code here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 300px;
+  width: 450px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 15px;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #9aa5b1;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.main-head {
+  font-size: 50px;
+  color: #ea580c;
+}
+
+.inputRed {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+.error {
+  color: #ff0b37;
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.submit-button {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #ea580c;
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.submit-another-btn {
+  width: 200px;
+  height: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #ea580c;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-container {
+    height: 350px;
+    width: 100%;
+    box-shadow: none;
+    padding: 10px;
+  }
+  .input-container {
+    width: 90%;
+  }
+  .input {
+    width: 100%;
+  }
+  .main-head {
+    font-size: 35px;
+  }
+}

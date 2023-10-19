@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.carousel-img {
+  width: 50%;
+}
+.planet-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.planetName {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.description {
+  color: #ffffff;
+}

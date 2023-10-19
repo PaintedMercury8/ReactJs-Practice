@@ -1,0 +1,15 @@
+.tab-item {
+  margin-right: 40px;
+}
+.btn {
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.active {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}

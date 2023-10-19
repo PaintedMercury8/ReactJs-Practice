@@ -1,0 +1,98 @@
+/* Write your CSS code here */
+.login-main-img {
+  width: 55%;
+}
+
+.login-main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  padding: 30px;
+  border: none;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.form-label {
+  width: 90%;
+  font-size: 12px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.input {
+  width: 90%;
+  margin-bottom: 20px;
+  height: 40px;
+  padding-left: 10px;
+  border: none;
+  background-color: #d7dfe9;
+  font-weight: bold;
+}
+
+.login-main-logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.login-btn-main {
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0b69ff;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.login-sub-img {
+  display: none;
+}
+
+.error {
+  color: red;
+  align-self: flex-start;
+}
+
+.login-main-logo-1 {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .form-container {
+    padding: 0px;
+    box-shadow: none;
+    height: 200px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .login-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-main-logo {
+    display: none;
+  }
+  .login-main-logo-1 {
+    display: block;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  .login-main-img {
+    width: 90%;
+  }
+}

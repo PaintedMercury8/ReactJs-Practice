@@ -99,9 +99,9 @@ class MoneyManager extends Component {
               Welcome back to your <span className="blue">Money Manager</span>
             </p>
           </div>
-          <ul className="money-details-list">
+          <div className="money-details-list">
             <MoneyDetails income={income} expense={expense} total={total} />
-          </ul>
+          </div>
           <div className="bottom-transaction-container">
             <form className="add-transaction" onSubmit={this.addHistory}>
               <h1 className="add-trans-head">Add Transaction</h1>

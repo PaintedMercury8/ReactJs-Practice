@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.alert-notification-list {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 40%;
+}
+
+@media screen and (max-width: 767px) {
+  .alert-notification-list {
+    width: 90%;
+  }
+}

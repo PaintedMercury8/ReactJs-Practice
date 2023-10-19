@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.event-container {
+  width: 60%;
+  background-color: #475569;
+  height: 100vh;
+  padding: 20px;
+}
+
+.event-item-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.event-registration-container {
+  width: 40%;
+  background-color: #ffffff;
+  height: 100vh;
+  padding: 30px;
+}

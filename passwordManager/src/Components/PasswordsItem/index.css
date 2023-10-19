@@ -1,0 +1,67 @@
+.stars-img {
+  width: 100px;
+}
+.passwordItems {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  color: #ffffff;
+  border: 2px solid #94a3b8;
+  padding: 5px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  min-height: 120px;
+}
+
+.urlName {
+  margin-right: 10px;
+}
+
+.userName {
+  margin-right: 10px;
+}
+.passName {
+  margin-right: 10px;
+}
+
+.item-logo {
+  margin-right: 10px;
+}
+
+.passwordDisplayContainer {
+  margin-right: 10px;
+}
+
+.delete-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.delete-img {
+  height: 30px;
+  width: 30px;
+}
+
+.item-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+  background-color: green;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .passName {
+    font-size: 10px;
+    width: 100px;
+  }
+}

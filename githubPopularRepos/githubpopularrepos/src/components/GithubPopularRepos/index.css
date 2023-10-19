@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  font-family: "Roboto";
+}
+
+.language-options-list {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.repository-list {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding-left: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main-head {
+  font-family: "Lobster";
+}
+
+.failure-view {
+  width: 50%;
+}
+
+.went-wrong {
+  font-family: "Lobster";
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .language-options-list {
+    width: 100%;
+  }
+  .failure-view {
+    width: 90%;
+  }
+}

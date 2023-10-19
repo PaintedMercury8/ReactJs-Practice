@@ -1,0 +1,11 @@
+/* Write your CSS code here */
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  margin-right: 10px;
+}

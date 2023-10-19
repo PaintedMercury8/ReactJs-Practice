@@ -1,0 +1,40 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.faq-container {
+  width: 90%;
+  height: 90%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.ul-container {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq {
+  color: #cb8805;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .faq {
+    font-size: 30px;
+  }
+}

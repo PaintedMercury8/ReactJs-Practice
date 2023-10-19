@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.item-total-container {
+  align-self: flex-end;
+}
+
+.order-total {
+  margin-bottom: 0px;
+  font-size: 20px;
+  color: #616e7c;
+}
+.amount {
+  font-size: 30px;
+  color: #000000;
+}
+.checkout {
+  width: 100%;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 10px;
+}
+.cart-length {
+  color: #616e7c;
+}
+
+.class-summary-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media screen and (max-width: 767px) {
+  .item-total-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .class-summary-flex {
+    width: 60%;
+    align-self: flex-end;
+  }
+  .checkout {
+    align-self: stretch;
+  }
+  .order-total {
+    font-size: 12px;
+  }
+  .amount {
+    font-size: 15px;
+  }
+  .cart-length {
+    font-size: 10px;
+  }
+}

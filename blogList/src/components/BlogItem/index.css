@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+.blog-item-data-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.published-data-description {
+  color: #9aa5b1;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .published-data-description {
+    font-size: 10px;
+  }
+  .blog-item-list {
+    width: 90%;
+  }
+}

@@ -1,0 +1,21 @@
+.filter-employment-container {
+  color: #ffffff;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.employment-type-item {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.employment-type-label {
+  margin-left: 10px;
+}
+
+.input-checkbox {
+  width: 18px;
+  height: 18px;
+}

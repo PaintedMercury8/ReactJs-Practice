@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.timeline-journey {
+  text-align: center;
+}
+
+.timeline-ccbp {
+  text-align: center;
+  color: #2b237c;
+}

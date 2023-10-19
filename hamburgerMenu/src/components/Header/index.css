@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo-link {
+  text-decoration: none;
+}
+
+.popup-content {
+  margin: 0px !important;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.trigger-button {
+  margin-right: 40px;
+  margin-top: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.hamburger-btn {
+  margin-right: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-home {
+  height: 100vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-logo {
+  width: 90px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.modal-home {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.link-home-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-icon {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  color: #616e7c;
+}
+.modal-home-css {
+  color: #616e7c;
+}
+
+@media screen and (max-width: 767px) {
+  .popup-container {
+  }
+  .header {
+    width: 100vw;
+  }
+  .website-logo {
+    margin-left: 10px;
+  }
+}

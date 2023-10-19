@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  width: 80%;
+}
+
+.main-head {
+  font-size: 50px;
+  color: #05acff;
+  font-weight: bold;
+}

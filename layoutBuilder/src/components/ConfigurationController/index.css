@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.header-list {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 90%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #475569;
+  color: #ffffff;
+}
