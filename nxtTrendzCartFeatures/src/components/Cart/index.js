@@ -11,10 +11,6 @@ const Cart = () => (
     {value => {
       const {cartList, removeAllCartItems} = value
       const showEmptyView = cartList.length === 0
-      const total = cartList.reduce(
-        (acc, eachItem) => acc + eachItem.quantity * eachItem.price,
-        0,
-      )
 
       const removeAllItems = () => {
         removeAllCartItems()
@@ -37,7 +33,7 @@ const Cart = () => (
                   Remove All
                 </button>
                 <CartListView />
-                <CartSummary total={total} length={cartList.length} />
+                <CartSummary />
               </div>
             )}
           </div>
