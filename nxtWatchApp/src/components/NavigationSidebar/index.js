@@ -19,7 +19,7 @@ import {
   ContactIconImg,
   ContactUsDescription,
 } from './styledComponents'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 
 const sideBarContents = [
   {

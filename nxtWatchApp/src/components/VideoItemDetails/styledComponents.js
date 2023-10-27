@@ -53,7 +53,7 @@ export const VideoPlayerTitle = styled.p`
   font-size: 20px;
 `
 
-export const DotIcon = styled(BsDot)`
+export const ItemDetailsDotIcon = styled(BsDot)`
   padding-top: 8px;
   font-size: 20px;
 `
@@ -120,7 +120,7 @@ export const VideoItemChannelDetailsContainer = styled.div`
   align-items: flex-start;
   margin-top: 25px;
 `
-export const VideoItemChannelLogo = styled.img`
+export const ItemDetailsVideoItemChannelLogo = styled.img`
   width: 60px;
 `
 

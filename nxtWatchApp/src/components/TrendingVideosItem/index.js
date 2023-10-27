@@ -1,5 +1,5 @@
 import {formatDistanceToNow} from 'date-fns'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 import {
   TrendingItemLinkContainer,
   TrendingItemMainContainer,
@@ -10,7 +10,7 @@ import {
   TrendingItemTitle,
   TrendingItemName,
   TrendingItemSpan,
-  DotIcon,
+  TrendingDotIcon,
 } from './styledComponents'
 
 const VideoItem = props => (
@@ -42,7 +42,7 @@ const VideoItem = props => (
                   <TrendingItemName>
                     {viewCount} views{' '}
                     <TrendingItemSpan>
-                      <DotIcon />
+                      <TrendingDotIcon />
                     </TrendingItemSpan>{' '}
                     {finalDate}
                   </TrendingItemName>

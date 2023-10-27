@@ -1,14 +1,14 @@
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 import Header from '../Header/index'
 import NavigationSidebar from '../NavigationSidebar/index'
 import {
   NotFoundContainer,
   NotFoundBottomContainer,
   NotFoundMainContainer,
-  TrendingLoadingContainer,
-  TrendingNoVideosImg,
-  TrendingNoVideosHead,
-  TrendingNoVideosPara,
+  NotFoundLoadingContainer,
+  NotFoundNoVideosImg,
+  NotFoundNoVideosHead,
+  NotFoundNoVideosPara,
 } from './styledComponents'
 
 const NotFound = () => (
@@ -21,8 +21,8 @@ const NotFound = () => (
           <NotFoundBottomContainer>
             <NavigationSidebar />
             <NotFoundMainContainer isDark={isDark}>
-              <TrendingLoadingContainer>
-                <TrendingNoVideosImg
+              <NotFoundLoadingContainer>
+                <NotFoundNoVideosImg
                   src={
                     isDark
                       ? 'https://assets.ccbp.in/frontend/react-js/nxt-watch-not-found-dark-theme-img.png'
@@ -30,13 +30,13 @@ const NotFound = () => (
                   }
                   alt="not found"
                 />
-                <TrendingNoVideosHead isDark={isDark}>
+                <NotFoundNoVideosHead isDark={isDark}>
                   Page Not Found
-                </TrendingNoVideosHead>
-                <TrendingNoVideosPara isDark={isDark}>
+                </NotFoundNoVideosHead>
+                <NotFoundNoVideosPara isDark={isDark}>
                   We are sorry, the page you requested could not be found
-                </TrendingNoVideosPara>
-              </TrendingLoadingContainer>
+                </NotFoundNoVideosPara>
+              </NotFoundLoadingContainer>
             </NotFoundMainContainer>
           </NotFoundBottomContainer>
         </NotFoundContainer>

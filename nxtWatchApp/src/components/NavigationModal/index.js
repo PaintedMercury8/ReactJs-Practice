@@ -6,15 +6,15 @@ import {SiYoutubegaming} from 'react-icons/si'
 import {CgPlayListAdd} from 'react-icons/cg'
 import {
   SidebarContainerSm,
-  SidebarElements,
-  LinkElement,
-  IconContainer,
-  SideBarTop,
-  NavigationSidebarText,
+  SidebarElementsSm,
+  LinkElementSm,
+  IconContainerSm,
+  SideBarTopSm,
+  NavigationSidebarTextSm,
   SidebarElementsContainerSm,
-  NavBtn,
+  NavBtnSm,
 } from './styledComponents'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 
 const sideBarContents = [
   {
@@ -54,25 +54,25 @@ class NavigationModal extends Component {
           const smSideBar = () => (
             <SidebarContainerSm isDark={isDark}>
               <SidebarElementsContainerSm>
-                <SideBarTop isDark={isDark}>
+                <SideBarTopSm isDark={isDark}>
                   {sideBarContents.map(eachItem => (
-                    <LinkElement to={eachItem.path} key={eachItem.id}>
-                      <SidebarElements
+                    <LinkElementSm to={eachItem.path} key={eachItem.id}>
+                      <SidebarElementsSm
                         isTrue={path === eachItem.path}
                         isDark={isDark}
                       >
-                        <NavBtn type="button">
-                          <IconContainer isTrue={path === eachItem.path}>
+                        <NavBtnSm type="button">
+                          <IconContainerSm isTrue={path === eachItem.path}>
                             {eachItem.logo}
-                          </IconContainer>
-                          <NavigationSidebarText isDark={isDark}>
+                          </IconContainerSm>
+                          <NavigationSidebarTextSm isDark={isDark}>
                             {eachItem.text}
-                          </NavigationSidebarText>
-                        </NavBtn>
-                      </SidebarElements>
-                    </LinkElement>
+                          </NavigationSidebarTextSm>
+                        </NavBtnSm>
+                      </SidebarElementsSm>
+                    </LinkElementSm>
                   ))}
-                </SideBarTop>
+                </SideBarTopSm>
               </SidebarElementsContainerSm>
             </SidebarContainerSm>
           )

@@ -1,5 +1,5 @@
 import {formatDistanceToNow} from 'date-fns'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 import {
   VideoItemLinkContainer,
   VideoItemMainContainer,
@@ -10,7 +10,7 @@ import {
   VideoItemTitle,
   VideoItemName,
   VideoItemSpan,
-  DotIcon,
+  VideoItemDotIcon,
 } from './styledComponents'
 
 const VideoItem = props => (
@@ -42,7 +42,7 @@ const VideoItem = props => (
                   <VideoItemName>
                     {viewCount} views{' '}
                     <VideoItemSpan isDark={isDark}>
-                      <DotIcon />
+                      <VideoItemDotIcon />
                     </VideoItemSpan>{' '}
                     {finalDate}
                   </VideoItemName>

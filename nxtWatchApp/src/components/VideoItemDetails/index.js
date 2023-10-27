@@ -6,7 +6,7 @@ import {formatDistanceToNow} from 'date-fns'
 import {BiLike, BiDislike} from 'react-icons/bi'
 import {RiPlayListAddLine} from 'react-icons/ri'
 import Header from '../Header/index'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 import NavigationSidebar from '../NavigationSidebar/index'
 import {
   ItemDetailsBgContainer,
@@ -18,7 +18,7 @@ import {
   VideoPlayerLikeAndData,
   VideoPlayerItemName,
   VideoPlayerItemSpan,
-  DotIcon,
+  ItemDetailsDotIcon,
   VideoPLayerLikeAndSaveContainer,
   LikeButton,
   LikeDisLikeText,
@@ -26,7 +26,7 @@ import {
   SaveBtn,
   HorizontalLine,
   VideoItemChannelDetailsContainer,
-  VideoItemChannelLogo,
+  ItemDetailsVideoItemChannelLogo,
   VideoItemDescriptionLg,
   ChannelNameSubscribers,
   ChannelNamePara,
@@ -163,7 +163,7 @@ class VideoItemDetails extends Component {
               <VideoPlayerItemName>
                 {viewCount} views{' '}
                 <VideoPlayerItemSpan isDark={isDark}>
-                  <DotIcon />
+                  <ItemDetailsDotIcon />
                 </VideoPlayerItemSpan>{' '}
                 {finalDate}
               </VideoPlayerItemName>
@@ -196,7 +196,10 @@ class VideoItemDetails extends Component {
             </VideoPlayerLikeAndData>
             <HorizontalLine />
             <VideoItemChannelDetailsContainer>
-              <VideoItemChannelLogo src={profileImageUrl} alt="channel logo" />
+              <ItemDetailsVideoItemChannelLogo
+                src={profileImageUrl}
+                alt="channel logo"
+              />
               <VideoItemDescriptionLg>
                 <ChannelNameSubscribers>
                   <ChannelNamePara isDark={isDark}>{name}</ChannelNamePara>

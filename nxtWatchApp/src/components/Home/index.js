@@ -27,7 +27,7 @@ import {
   HomeNoVideosPara,
   HomeNoVideosRetry,
 } from './styledComponents'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 import NavigationSidebar from '../NavigationSidebar/index'
 
 const displayViews = {

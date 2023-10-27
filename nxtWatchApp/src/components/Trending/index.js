@@ -3,7 +3,7 @@ import Cookie from 'js-cookie'
 import Loader from 'react-loader-spinner'
 import {HiFire} from 'react-icons/hi'
 import Header from '../Header/index'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 import TrendingVideosItem from '../TrendingVideosItem/index'
 import {
   TrendingBgContainer,

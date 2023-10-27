@@ -3,20 +3,20 @@ import {Component} from 'react'
 import {CgPlayListAdd} from 'react-icons/cg'
 
 import Header from '../Header/index'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 import TrendingVideosItem from '../TrendingVideosItem/index'
 import {
-  TrendingBgContainer,
-  TrendingBottomContainer,
-  TrendingMainContainer,
-  TrendingBannerContainer,
-  TrendingTrendingContainerIcon,
-  TrendingBannerHead,
-  TrendingLoadingContainer,
-  TrendingSuccessContainer,
-  TrendingNoVideosImg,
-  TrendingNoVideosHead,
-  TrendingNoVideosPara,
+  SavedVideosBgContainer,
+  SavedVideosBottomContainer,
+  SavedVideosMainContainer,
+  SavedVideosBannerContainer,
+  SavedVideosTrendingContainerIcon,
+  SavedVideosBannerHead,
+  SavedVideosLoadingContainer,
+  SavedVideosSuccessContainer,
+  SavedVideosNoVideosImg,
+  SavedVideosNoVideosHead,
+  SavedVideosNoVideosPara,
 } from './styledComponents'
 import NavigationSidebar from '../NavigationSidebar/index'
 
@@ -26,14 +26,14 @@ class SavedVideos extends Component {
       {value => {
         const {isDark} = value
         return (
-          <TrendingBannerContainer isDark={isDark} data-testid="banner">
-            <TrendingTrendingContainerIcon isDark={isDark}>
+          <SavedVideosBannerContainer isDark={isDark} data-testid="banner">
+            <SavedVideosTrendingContainerIcon isDark={isDark}>
               <CgPlayListAdd />
-            </TrendingTrendingContainerIcon>
-            <TrendingBannerHead isDark={isDark}>
+            </SavedVideosTrendingContainerIcon>
+            <SavedVideosBannerHead isDark={isDark}>
               Saved Videos
-            </TrendingBannerHead>
-          </TrendingBannerContainer>
+            </SavedVideosBannerHead>
+          </SavedVideosBannerContainer>
         )
       }}
     </AppContext.Consumer>
@@ -46,11 +46,11 @@ class SavedVideos extends Component {
         return (
           <>
             {this.renderBanner()}
-            <TrendingSuccessContainer>
+            <SavedVideosSuccessContainer>
               {savedVideos.map(eachItem => (
                 <TrendingVideosItem data={eachItem} key={eachItem.id} />
               ))}
-            </TrendingSuccessContainer>
+            </SavedVideosSuccessContainer>
           </>
         )
       }}
@@ -62,18 +62,18 @@ class SavedVideos extends Component {
       {value => {
         const {isDark} = value
         return (
-          <TrendingLoadingContainer>
-            <TrendingNoVideosImg
+          <SavedVideosLoadingContainer>
+            <SavedVideosNoVideosImg
               src="https://assets.ccbp.in/frontend/react-js/nxt-watch-no-saved-videos-img.png"
               alt="no saved videos"
             />
-            <TrendingNoVideosHead isDark={isDark}>
+            <SavedVideosNoVideosHead isDark={isDark}>
               No saved videos found
-            </TrendingNoVideosHead>
-            <TrendingNoVideosPara isDark={isDark}>
+            </SavedVideosNoVideosHead>
+            <SavedVideosNoVideosPara isDark={isDark}>
               You can save your videos while watching them
-            </TrendingNoVideosPara>
-          </TrendingLoadingContainer>
+            </SavedVideosNoVideosPara>
+          </SavedVideosLoadingContainer>
         )
       }}
     </AppContext.Consumer>
@@ -97,18 +97,18 @@ class SavedVideos extends Component {
         {value => {
           const {isDark} = value
           return (
-            <TrendingBgContainer>
+            <SavedVideosBgContainer>
               <Header />
-              <TrendingBottomContainer>
+              <SavedVideosBottomContainer>
                 <NavigationSidebar />
-                <TrendingMainContainer
+                <SavedVideosMainContainer
                   isDark={isDark}
                   data-testid="savedVideos"
                 >
                   {this.renderView()}
-                </TrendingMainContainer>
-              </TrendingBottomContainer>
-            </TrendingBgContainer>
+                </SavedVideosMainContainer>
+              </SavedVideosBottomContainer>
+            </SavedVideosBgContainer>
           )
         }}
       </AppContext.Consumer>

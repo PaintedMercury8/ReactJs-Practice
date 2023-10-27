@@ -55,17 +55,11 @@ export const VideoItemName = styled.p`
   text-align: left;
   margin-left: 10px;
 `
-export const VideoItemDate = styled.div`
-  display: flex;
-  align-items: center;
-`
-
-export const VideoDotContainer = styled.div``
 
 export const VideoItemSpan = styled.span`
   color: ${props => (props.isDark ? '#616a6c' : '#010101')};
 `
-export const DotIcon = styled(BsDot)`
+export const VideoItemDotIcon = styled(BsDot)`
   padding-top: 8px;
   font-size: 20px;
 `

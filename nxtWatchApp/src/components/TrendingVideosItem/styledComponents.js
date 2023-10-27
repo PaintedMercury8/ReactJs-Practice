@@ -62,17 +62,11 @@ export const TrendingItemName = styled.p`
   text-align: left;
   margin-left: 10px;
 `
-export const TrendingItemDate = styled.div`
-  display: flex;
-  align-items: center;
-`
-
-export const TrendingDotContainer = styled.div``
 
 export const TrendingItemSpan = styled.span`
   color: '#ffffff';
 `
-export const DotIcon = styled(BsDot)`
+export const TrendingDotIcon = styled(BsDot)`
   padding-top: 8px;
   font-size: 20px;
 `

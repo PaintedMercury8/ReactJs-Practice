@@ -3,7 +3,7 @@ import {Component} from 'react'
 import Home from './components/Home/index'
 import Login from './components/Login/index'
 import ProtectedRoute from './components/ProtectedRoute/index'
-import AppContext from './Context/AppContext'
+import AppContext from './context/AppContext'
 import Gaming from './components/Gaming'
 import Trending from './components/Trending'
 import SavedVideos from './components/SavedVideos'
@@ -24,9 +24,7 @@ class App extends Component {
 
   addOrRemoveVideo = (id, saveData) => {
     const {savedVideos} = this.state
-    console.log(id)
     const isPresent = savedVideos.findIndex(eachItem => eachItem.id === id)
-    console.log(isPresent)
     if (isPresent !== -1) {
       this.setState(prevState => ({
         savedVideos: prevState.savedVideos.filter(

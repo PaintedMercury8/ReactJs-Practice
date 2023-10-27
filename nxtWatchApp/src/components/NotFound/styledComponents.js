@@ -26,28 +26,28 @@ export const NotFoundMainContainer = styled.div`
   overflow-y: auto;
 `
 
-export const TrendingLoadingContainer = styled.div`
+export const NotFoundLoadingContainer = styled.div`
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `
-export const TrendingNoVideosImg = styled.img`
+export const NotFoundNoVideosImg = styled.img`
   width: 30%;
   @media screen and (max-width: 767px) {
     width: 50%;
   }
 `
 
-export const TrendingNoVideosHead = styled.h1`
+export const NotFoundNoVideosHead = styled.h1`
   font-size: 30px;
   color: ${props => (props.isDark ? '#f2f2f2' : '#010101')};
   @media screen and (max-width: 767px) {
     font-size: 15px;
   }
 `
-export const TrendingNoVideosPara = styled.p`
+export const NotFoundNoVideosPara = styled.p`
   font-size: 20px;
   color: ${props => (props.isDark ? '#667b90' : '#010101')};
   @media screen and (max-width: 767px) {

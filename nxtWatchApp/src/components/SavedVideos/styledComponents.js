@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const TrendingBgContainer = styled.div`
+export const SavedVideosBgContainer = styled.div`
   height: 100vh;
   width: 100%;
   display: flex;
@@ -8,7 +8,7 @@ export const TrendingBgContainer = styled.div`
   justify-content: flex-start;
 `
 
-export const TrendingBottomContainer = styled.div`
+export const SavedVideosBottomContainer = styled.div`
   height: 93%;
   display: flex;
   justify-content: stretch;
@@ -18,7 +18,7 @@ export const TrendingBottomContainer = styled.div`
   }
 `
 
-export const TrendingMainContainer = styled.div`
+export const SavedVideosMainContainer = styled.div`
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@ export const TrendingMainContainer = styled.div`
   overflow-y: auto;
 `
 
-export const TrendingBannerContainer = styled.div`
+export const SavedVideosBannerContainer = styled.div`
   width: 100%;
   height: 20%;
   flex-shrink: 0;
@@ -41,7 +41,7 @@ export const TrendingBannerContainer = styled.div`
   }
 `
 
-export const TrendingTrendingContainerIcon = styled.div`
+export const SavedVideosTrendingContainerIcon = styled.div`
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -60,12 +60,12 @@ export const TrendingTrendingContainerIcon = styled.div`
     margin-left: 15px;
   }
 `
-export const TrendingBannerHead = styled.h1`
+export const SavedVideosBannerHead = styled.h1`
   font-size: 30px;
   margin-left: 20px;
   color: ${props => (props.isDark ? '#ffffff' : '#010101')};
 `
-export const TrendingLoadingContainer = styled.div`
+export const SavedVideosLoadingContainer = styled.div`
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ export const TrendingLoadingContainer = styled.div`
   align-items: center;
 `
 
-export const TrendingSuccessContainer = styled(TrendingLoadingContainer)`
+export const SavedVideosSuccessContainer = styled(SavedVideosLoadingContainer)`
   flex-grow: 1;
   flex-direction: row;
   align-items: flex-start;
@@ -83,35 +83,24 @@ export const TrendingSuccessContainer = styled(TrendingLoadingContainer)`
   width: 100%;
   padding: 3%;
 `
-export const TrendingNoVideosImg = styled.img`
+export const SavedVideosNoVideosImg = styled.img`
   width: 30%;
   @media screen and (max-width: 767px) {
     width: 50%;
   }
 `
 
-export const TrendingNoVideosHead = styled.h1`
+export const SavedVideosNoVideosHead = styled.h1`
   font-size: 30px;
   color: ${props => (props.isDark ? '#f2f2f2' : '#010101')};
   @media screen and (max-width: 767px) {
     font-size: 15px;
   }
 `
-export const TrendingNoVideosPara = styled.p`
+export const SavedVideosNoVideosPara = styled.p`
   font-size: 20px;
   color: ${props => (props.isDark ? '#667b90' : '#010101')};
   @media screen and (max-width: 767px) {
     font-size: 10px;
   }
-`
-
-export const TrendingNoVideosRetry = styled.button`
-  width: 120px;
-  height: 40px;
-  color: #ffffff;
-  background-color: #4f46e5;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  outline: none;
 `

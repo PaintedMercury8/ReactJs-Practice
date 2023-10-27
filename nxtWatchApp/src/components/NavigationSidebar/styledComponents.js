@@ -17,28 +17,6 @@ export const SidebarContainer = styled.ul`
     display: none;
   }
 `
-export const SidebarContainerSm = styled.ul`
-  display: none;
-  @media screen and (max-width: 767px) {
-    display: block;
-    height: 35%;
-    width: 100%;
-    list-style-type: none;
-    padding-left: 0px;
-    background-color: ${props => (props.isDark ? '#1f201c' : '#ffffff')};
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-`
-
-export const SidebarElementsContainerSm = styled.li`
-  display: none;
-  @media screen and (max-width: 767px) {
-    display: block;
-    width: 100%;
-    background-color: transparent;
-  } ;
-`
 
 export const SideBarTop = styled.ul`
   width: 100%;

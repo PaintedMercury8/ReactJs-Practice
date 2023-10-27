@@ -3,7 +3,7 @@ import Cookie from 'js-cookie'
 import Loader from 'react-loader-spinner'
 import {SiYoutubegaming} from 'react-icons/si'
 import Header from '../Header/index'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 import GamingVideosItem from '../GamingVideosItem/index'
 import {
   GamingBgContainer,

@@ -27,7 +27,7 @@ import {
   ModalContentCLose,
   HeaderLinkHome,
 } from './styledComponents'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 
 const Header = props => (
   <AppContext.Consumer>

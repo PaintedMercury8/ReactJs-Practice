@@ -1,21 +1,6 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
-export const SidebarContainer = styled.ul`
-  width: 25%;
-  height: 100%;
-  list-style-type: none;
-  padding-left: 0px;
-  background-color: ${props => (props.isDark ? '#1f201c' : '#ffffff')};
-  margin-top: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
-`
 export const SidebarContainerSm = styled.ul`
   display: none;
   @media screen and (max-width: 767px) {
@@ -39,31 +24,14 @@ export const SidebarElementsContainerSm = styled.li`
   } ;
 `
 
-export const SideBarTop = styled.ul`
+export const SideBarTopSm = styled.ul`
   width: 100%;
   list-style-type: none;
   padding-left: 0px;
   background-color: transparent;
 `
 
-export const SidebarElementsContainer = styled.li`
-  margin-top: 30px;
-  background-color: transparent;
-  @media screen and (max-width: 767px) {
-    display: none;
-  } ;
-`
-
-export const SideBarContactContainer = styled(SidebarElementsContainer)`
-  margin-top: 0px;
-  width: 100%;
-  padding-left: 30px;
-  @media screen and (max-width: 767px) {
-    display: none;
-  } ;
-`
-
-export const SidebarElements = styled.li`
+export const SidebarElementsSm = styled.li`
   width: 100%;
   height: 50px;
   display: flex;
@@ -80,22 +48,22 @@ export const SidebarElements = styled.li`
       : '#ffffff'};
 `
 
-export const LinkElement = styled(Link)`
+export const LinkElementSm = styled(Link)`
   text-decoration: none;
 `
 
-export const IconContainer = styled.div`
+export const IconContainerSm = styled.div`
   font-size: 30px;
   color: ${props => (props.isTrue ? '#ff0b37' : '#909090')};
   margin-left: 30px;
 `
 
-export const NavigationSidebarText = styled.p`
+export const NavigationSidebarTextSm = styled.p`
   margin-left: 30px;
   color: ${props => (props.isDark ? '#ffffff' : '#909090')};
 `
 
-export const NavBtn = styled.button`
+export const NavBtnSm = styled.button`
   width: 100%;
   background-color: transparent;
   border: none;

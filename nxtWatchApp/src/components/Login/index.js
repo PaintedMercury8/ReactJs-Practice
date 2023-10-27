@@ -13,7 +13,7 @@ import {
   LoginButton,
   ErrorMessage,
 } from './styledComponents'
-import AppContext from '../../Context/AppContext'
+import AppContext from '../../context/AppContext'
 
 const defaultValues = ''
 
