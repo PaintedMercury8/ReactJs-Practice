@@ -71,7 +71,9 @@ export const TrendingLoadingContainer = styled.div`
   align-items: center;
 `
 
-export const TrendingSuccessContainer = styled(TrendingLoadingContainer)`
+export const TrendingSuccessContainer = styled.ul`
+  list-style-type: none;
+  padding-left: 0px;
   flex-grow: 1;
   flex-direction: row;
   align-items: flex-start;

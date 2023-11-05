@@ -173,14 +173,14 @@ class VideoItemDetails extends Component {
                   onClick={this.changeLike}
                   type="button"
                 >
-                  <BiLike /> <LikeDisLikeText>Like</LikeDisLikeText>
+                  <BiLike /> Like
                 </LikeButton>
                 <DisLikeButton
                   status={currentLikeStatus}
                   onClick={this.changeDislike}
                   type="button"
                 >
-                  <BiDislike /> <LikeDisLikeText>Dislike</LikeDisLikeText>
+                  <BiDislike /> Dislike
                 </DisLikeButton>
                 <SaveBtn
                   type="button"
@@ -188,9 +188,8 @@ class VideoItemDetails extends Component {
                   isPresent={isPresent}
                 >
                   <RiPlayListAddLine />
-                  <LikeDisLikeText>
-                    {isPresent ? 'Saved' : 'Save'}
-                  </LikeDisLikeText>
+
+                  {isPresent ? 'Saved' : 'Save'}
                 </SaveBtn>
               </VideoPLayerLikeAndSaveContainer>
             </VideoPlayerLikeAndData>
@@ -249,8 +248,7 @@ class VideoItemDetails extends Component {
             </VideoDetailsNoVideosHead>
             <VideoDetailsNoVideosPara isDark={isDark}>
               We are having some trouble to complete your request.
-              <br />
-              Please try again.
+              <br /> Please try again.
             </VideoDetailsNoVideosPara>
             <VideoDetailsNoVideosRetry onClick={this.getData}>
               Retry

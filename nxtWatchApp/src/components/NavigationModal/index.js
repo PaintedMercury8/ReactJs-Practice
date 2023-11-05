@@ -61,14 +61,12 @@ class NavigationModal extends Component {
                         isTrue={path === eachItem.path}
                         isDark={isDark}
                       >
-                        <NavBtnSm type="button">
-                          <IconContainerSm isTrue={path === eachItem.path}>
-                            {eachItem.logo}
-                          </IconContainerSm>
-                          <NavigationSidebarTextSm isDark={isDark}>
-                            {eachItem.text}
-                          </NavigationSidebarTextSm>
-                        </NavBtnSm>
+                        <IconContainerSm isTrue={path === eachItem.path}>
+                          {eachItem.logo}
+                        </IconContainerSm>
+                        <NavigationSidebarTextSm isDark={isDark}>
+                          {eachItem.text}
+                        </NavigationSidebarTextSm>
                       </SidebarElementsSm>
                     </LinkElementSm>
                   ))}

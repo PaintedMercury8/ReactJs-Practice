@@ -42,7 +42,13 @@ export const VideoItemChannelLogo = styled.img`
     margin-right: 10px;
   }
 `
-export const VideoItemDataDisplay = styled.div``
+export const VideoItemDataDisplay = styled.div`
+  @media screen and (max-width: 575px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+`
 
 export const VideoItemTitle = styled.p`
   font-size: 15px;
@@ -53,13 +59,25 @@ export const VideoItemTitle = styled.p`
 export const VideoItemName = styled.p`
   color: #616a6c;
   text-align: left;
-  margin-left: 10px;
+
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 575px) {
+    font-size: 13px;
+  }
 `
 
 export const VideoItemSpan = styled.span`
   color: ${props => (props.isDark ? '#616a6c' : '#010101')};
 `
 export const VideoItemDotIcon = styled(BsDot)`
-  padding-top: 8px;
+  margin-top: 3px;
   font-size: 20px;
+`
+
+export const ResponsiveVideoItemDotIcon = styled(VideoItemDotIcon)`
+  display: none;
+  @media screen and (max-width: 575px) {
+    display: block;
+  }
 `

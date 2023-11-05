@@ -34,7 +34,7 @@ const NotFound = () => (
                   Page Not Found
                 </NotFoundNoVideosHead>
                 <NotFoundNoVideosPara isDark={isDark}>
-                  We are sorry, the page you requested could not be found
+                  we are sorry, the page you requested could not be found.
                 </NotFoundNoVideosPara>
               </NotFoundLoadingContainer>
             </NotFoundMainContainer>

@@ -60,6 +60,11 @@ export const SidebarElements = styled.li`
 
 export const LinkElement = styled(Link)`
   text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
 `
 
 export const IconContainer = styled.div`
@@ -82,7 +87,7 @@ export const NavBtn = styled.button`
   cursor: pointer;
   outline: none;
 `
-export const ContactUsHead = styled.h1`
+export const ContactUsHead = styled.p`
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 30px;

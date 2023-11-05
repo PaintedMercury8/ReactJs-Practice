@@ -36,6 +36,7 @@ export const SidebarElementsSm = styled.li`
   height: 50px;
   display: flex;
   align-items: center;
+  padding-left: 20%;
   color: ${props => (props.isDark ? '#ffffff' : '#909090')};
   background-color: ${props =>
     // eslint-disable-next-line no-nested-ternary
@@ -50,6 +51,14 @@ export const SidebarElementsSm = styled.li`
 
 export const LinkElementSm = styled(Link)`
   text-decoration: none;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
 `
 
 export const IconContainerSm = styled.div`

@@ -64,19 +64,17 @@ class NavigationSidebar extends Component {
                   <SideBarTop isDark={isDark}>
                     {sideBarContents.map(eachItem => (
                       <LinkElement to={eachItem.path} key={eachItem.id}>
-                        <NavBtn>
-                          <SidebarElements
-                            isTrue={path === eachItem.path}
-                            isDark={isDark}
-                          >
-                            <IconContainer isTrue={path === eachItem.path}>
-                              {eachItem.logo}
-                            </IconContainer>
-                            <NavigationSidebarText>
-                              {eachItem.text}
-                            </NavigationSidebarText>
-                          </SidebarElements>
-                        </NavBtn>
+                        <SidebarElements
+                          isTrue={path === eachItem.path}
+                          isDark={isDark}
+                        >
+                          <IconContainer isTrue={path === eachItem.path}>
+                            {eachItem.logo}
+                          </IconContainer>
+                          <NavigationSidebarText>
+                            {eachItem.text}
+                          </NavigationSidebarText>
+                        </SidebarElements>
                       </LinkElement>
                     ))}
                   </SideBarTop>

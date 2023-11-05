@@ -12,7 +12,7 @@ export const TrendingItemLinkContainer = styled(Link)`
   }
 `
 
-export const TrendingItemMainContainer = styled.div`
+export const TrendingItemMainContainer = styled.li`
   display: flex;
   flex-direction: row;
 

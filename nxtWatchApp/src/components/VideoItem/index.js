@@ -11,6 +11,7 @@ import {
   VideoItemName,
   VideoItemSpan,
   VideoItemDotIcon,
+  ResponsiveVideoItemDotIcon,
 } from './styledComponents'
 
 const VideoItem = props => (
@@ -40,6 +41,7 @@ const VideoItem = props => (
                   <VideoItemName>{name}</VideoItemName>
 
                   <VideoItemName>
+                    <ResponsiveVideoItemDotIcon />
                     {viewCount} views{' '}
                     <VideoItemSpan isDark={isDark}>
                       <VideoItemDotIcon />

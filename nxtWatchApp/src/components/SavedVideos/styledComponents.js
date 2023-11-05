@@ -73,9 +73,12 @@ export const SavedVideosLoadingContainer = styled.div`
   align-items: center;
 `
 
-export const SavedVideosSuccessContainer = styled(SavedVideosLoadingContainer)`
+export const SavedVideosSuccessContainer = styled.ul`
+  list-style-type: none;
+  padding-left: 0px;
   flex-grow: 1;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
